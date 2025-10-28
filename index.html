@@ -168,33 +168,35 @@
                 <a href="https://wa.me/573013203396" class="cta-button" target="_blank" style="max-width: 300px;">Chatea con nosotros</a>
             </div>
 
-            <form class="contacto-form"  action="https://formspree.io/f/mpwowrvo" method="POST">
+            <form class="contacto-form" action="https://formspree.io/f/mpwowrvo" method="POST">
                 <div class="form-group">
                     <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" required>
+                    <input type="text" id="nombre" name="nombre" required>
                 </div>
 
                 <div class="form-group">
                     <label for="correo">Correo electrónico</label>
-                    <input type="email" id="correo" required>
+                    <input type="email" id="correo" name="correo" required>
                 </div>
 
                 <div class="form-group">
                     <label for="tipo">Tipo de página</label>
-                    <select id="tipo" required>
+                    <select id="tipo" name="tipo" required>
                         <option value="">Selecciona una opción</option>
-                        <option value="basico">Landing Básica</option>
-                        <option value="profesional">Web Pyme</option>
-                        <option value="premium">Plan Premium</option>
+                        <option value="Landing Básica">Landing Básica</option>
+                        <option value="Web Pyme">Web Pyme</option>
+                        <option value="Plan Premium">Plan Premium</option>
                     </select>
                 </div>
 
                 <div class="form-group">
                     <label for="mensaje">Mensaje</label>
-                    <textarea id="mensaje" required></textarea>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
                 </div>
-                
-                <input type="hidden" name="_next" value="https://tudominio.com/gracias.html">
+
+                <!-- Redirección después del envío -->
+                <input type="hidden" name="_next" value="https://lavillaweb.github.io/gracias.html">
+                <input type="hidden" name="_subject" value="Nuevo mensaje desde el formulario de La Villa Web">
 
                 <button type="submit" class="submit-button">Enviar mensaje</button>
             </form>
