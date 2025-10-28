@@ -131,13 +131,6 @@ window.onclick = function(event) {
     }
 }
 
-// Form submission
-function handleSubmit(event) {
-    event.preventDefault();
-    const nombre = document.getElementById('nombre').value;
-    alert('¡Gracias por tu mensaje, ' + nombre + '! Te contactaremos pronto.');
-    event.target.reset();
-}
 
 // Scroll animations
 const observerOptions = {
