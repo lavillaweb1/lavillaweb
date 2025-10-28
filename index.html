@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Villa Web - Páginas web listas para despegar 🚀</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo"><a href="#inicio">
+                <img src="img/logo.png" alt="La Villa Web Logo" />
+                </a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#planes">Planes</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Páginas web listas para despegar 🚀</h1>
+            <p>Creamos páginas modernas, rápidas y accesibles para negocios que quieren despegar en internet.</p>
+            <a href="https://wa.me/573013203396" class="cta-button" target="_blank">Habla con nosotros</a>
+        </div>
+    </section>
+
+    <!-- Planes Section -->
+    <section id="planes">
+        <h2 class="section-title">Nuestros Planes</h2>
+        <p class="section-subtitle">Elige el plan perfecto para tu negocio y comienza tu despegue digital</p>
+        
+        <div class="planes-grid">
+            <div class="plan-card">
+                <h3 class="plan-title">Landing Básica</h3>
+                <div class="plan-price">USD $180</div>
+                <p class="plan-description">Incluye dominio + hosting 1 año</p>
+                <ul class="plan-features">
+                    <li>1 página responsive completa</li>
+                    <li>Sección de inicio y contacto</li>
+                    <li>Mapa de ubicación integrado</li>
+                    <li>Botón directo a WhatsApp</li>
+                    <li>2 revisiones incluidas</li>
+                    <li>Entrega: 3-7 días</li>
+                </ul>
+                <a href="#" class="plan-button" onclick="openModal('basico'); return false;">Ver detalles</a>
+            </div>
+
+            <div class="plan-card featured">
+                <span class="plan-badge">Más Popular</span>
+                <h3 class="plan-title">Web Pyme</h3>
+                <div class="plan-price">USD $400</div>
+                <p class="plan-description">Incluye dominio + hosting 1 año</p>
+                <ul class="plan-features">
+                    <li>3-5 páginas completas</li>
+                    <li>Inicio, servicios, sobre nosotros, contacto</li>
+                    <li>SEO básico optimizado</li>
+                    <li>Formulario funcional</li>
+                    <li>3 revisiones incluidas</li>
+                    <li>Entrega: 4-7 días</li>
+                </ul>
+                <a href="#" class="plan-button" onclick="openModal('profesional'); return false;">Ver detalles</a>
+            </div>
+
+            <div class="plan-card">
+                <h3 class="plan-title">Plan Mensual</h3>
+                <div class="plan-price">USD $50-120<span>/mes</span></div>
+                <p class="plan-description">Mantenimiento continuo</p>
+                <ul class="plan-features">
+                    <li>Hosting administrado</li>
+                    <li>2 cambios pequeños al mes</li>
+                    <li>1 landing por trimestre</li>
+                    <li>Backups mensuales</li>
+                    <li>Soporte prioritario</li>
+                    <li>Actualizaciones de seguridad</li>
+                </ul>
+                <a href="#" class="plan-button" onclick="openModal('mensual'); return false;">Ver detalles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso Section -->
+    <section id="proceso">
+        <h2 class="section-title">Nuestro Proceso</h2>
+        <p class="section-subtitle">Rápido, claro y sin complicaciones. Trabajamos contigo en cada paso.</p>
+        
+        <div class="proceso-grid">
+            <div class="proceso-step">
+                <div class="proceso-icon">✏️</div>
+                <h3>Diseñamos</h3>
+                <p class="proceso-description">Creamos tu web según tus ideas y necesidades específicas</p>
+            </div>
+
+            <div class="proceso-step">
+                <div class="proceso-icon">✅</div>
+                <h3>Aprobamos</h3>
+                <p class="proceso-description">Te mostramos el resultado y aplicamos los cambios que necesites</p>
+            </div>
+
+            <div class="proceso-step">
+                <div class="proceso-icon">🚀</div>
+                <h3>Entregamos</h3>
+                <p class="proceso-description">Tu web lista para conquistar el mundo digital</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portafolio Section -->
+    <section id="portafolio">
+        <h2 class="section-title">Portafolio</h2>
+        <p class="section-subtitle">Ejemplos de nuestro trabajo - Páginas reales que puedes explorar</p>
+        
+        <div class="portafolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-image">🛍️</div>
+                <div class="portfolio-info">
+                    <h3>Tienda Demo - Café Aroma</h3>
+                    <p>Landing básica para tienda de café. Ejemplo del Plan Básico USD $180</p>
+                    <a href="cafearoma.html" target="_blank" class="portfolio-link">Ver sitio completo →</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image">💼</div>
+                <div class="portfolio-info">
+                    <h3>Consultorio Médico</h3>
+                    <p>Web Pyme con múltiples páginas. Ejemplo del Plan Profesional USD $400</p>
+                    <a href="Dr.salud.html" target="_blank" class="portfolio-link">Ver sitio completo →</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image">🏢</div>
+                <div class="portfolio-info">
+                    <h3>Portafolio Profesional</h3>
+                    <p>Sitio completo con mantenimiento incluido. Plan Mensual</p>
+                    <a href="#planes" class="portfolio-link">Ver planes →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacto Section -->
+    <section id="contacto">
+        <h2 class="section-title">Contacto</h2>
+        <p class="section-subtitle">¿Listo para despegar tu presencia online? Escríbenos.</p>
+        
+        <div class="contacto-content">
+            <div class="contacto-info">
+                <h3>Estamos aquí para ayudarte</h3>
+                <p style="margin-bottom: 2rem; color: var(--text-light);">Contáctanos y comencemos a trabajar en tu proyecto web hoy mismo.</p>
+                <a href="https://wa.me/573013203396" class="cta-button" target="_blank" style="max-width: 300px;">Chatea con nosotros</a>
+            </div>
+
+            <form class="contacto-form"  action="https://formspree.io/f/mpwowrvo" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo">Tipo de página</label>
+                    <select id="tipo" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="basico">Landing Básica</option>
+                        <option value="profesional">Web Pyme</option>
+                        <option value="premium">Plan Premium</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" required></textarea>
+                </div>
+                
+                <input type="hidden" name="_next" value="https://tudominio.com/gracias.html">
+
+                <button type="submit" class="submit-button">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>🚀 La Villa Web</h3>
+                <p>Hecho con ❤️ desde Medellín, Colombia.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Enlaces rápidos</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#planes">Planes</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <a href="mailto:lavillaweb1@gmail.com">lavillaweb1@gmail.com</a>
+                <a href="https://wa.me/573013203396" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 La Villa Web. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="planModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
