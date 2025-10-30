@@ -21,7 +21,7 @@ function openModal(plan) {
     const planDetails = {
         basico: {
             title: 'Landing Básica',
-            price: 'USD $180',
+            price: 'USD $150',
             description: 'Perfecta para comenzar tu presencia digital rápidamente',
             features: [
                 '1 página responsive completa',
@@ -29,7 +29,6 @@ function openModal(plan) {
                 'Mapa de ubicación de Google Maps',
                 'Botón directo a WhatsApp Business',
                 '2 revisiones incluidas',
-                'Dominio .com por 1 año',
                 'Hosting por 1 año incluido',
                 'Certificado SSL (HTTPS)',
                 'Optimización básica de imágenes',
@@ -41,7 +40,7 @@ function openModal(plan) {
         },
         profesional: {
             title: 'Web Pyme',
-            price: 'USD $400',
+            price: 'USD $300',
             description: 'La solución completa para pequeñas y medianas empresas',
             features: [
                 '3-5 páginas profesionales',
@@ -50,7 +49,6 @@ function openModal(plan) {
                 'Formulario de contacto funcional',
                 'Integración con Google Analytics',
                 '3 revisiones incluidas',
-                'Dominio .com por 1 año',
                 'Hosting por 1 año incluido',
                 'Certificado SSL (HTTPS)',
                 'Integración con redes sociales',
